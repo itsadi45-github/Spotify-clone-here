@@ -1,0 +1,577 @@
+* {
+   padding: 0;
+   margin: 0;
+   /* box-sizing: border-box; */
+}
+
+body {
+   background-color: black;
+}
+
+.boxes {
+   display: flex;
+   border-top: 4px solid black;
+
+}
+
+.box {
+   background-color: rgb(18, 18, 18);
+   border: 5px solid black;
+   border-radius: 15px;
+}
+
+.box1 {
+   height: 168px;
+   width: 447px;
+}
+
+.box2 {
+   height: 535px;
+   width: 447px;
+}
+
+.box3 {
+   height: 712px;
+   width: 1069px;
+
+   margin: auto;
+}
+
+.logo {
+   max-width: 80px;
+   margin: auto;
+}
+
+.content1 {
+   padding-top: 18px;
+   padding-left: 23px;
+   display: inline-grid;
+}
+
+.scrollbox {
+   overflow-y: auto;
+   overflow-x: hidden;
+}
+
+.home div {
+   color: white;
+   font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+   font-weight: 700;
+   font-size: 16px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+}
+
+.home {
+   display: flex;
+   gap: 17px;
+   padding-top: 20px;
+}
+
+.home svg:hover {
+   cursor: pointer;
+}
+
+.svg1 {
+   color: white;
+   padding-top: 19px;
+   padding-left: 4px;
+}
+
+.span1 {
+   color: #9C9C9C;
+   font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+   font-style: normal;
+   font-size: 16px;
+   font-weight: 700;
+   padding-top: 23px;
+   padding-left: 15px;
+}
+
+.hover_it {
+   display: flex;
+   cursor: pointer;
+}
+
+.span1:hover {
+   color: white;
+   transition: all 1s ease-in-out;
+}
+
+.svg1:hover {
+   color: white;
+   transition: all ease-in-out;
+}
+
+nav {
+   background-color: rgb(18, 18, 18);
+   display: flex;
+   max-width: 66vw;
+   margin: auto;
+   align-items: center;
+   justify-content: space-between;
+   height: 60px;
+   position: sticky;
+   top: 0px;
+}
+
+.arrows {
+   display: flex;
+   gap: 5px;
+   padding-left: 10px;
+}
+
+.svg2 {
+   background-color: black;
+   border: 5px solid black;
+   border-radius: 20px;
+   cursor: pointer;
+}
+
+.svg3 {
+   background-color: black;
+   border: 5px solid black;
+   border-radius: 20px;
+   cursor: pointer;
+}
+
+.nobg {
+   font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+   font-size: 16px;
+   font-weight: 700;
+   color: #a7a7a7;
+   background-color: rgb(18, 18, 18);
+   border: 18px solid rgb(18, 18, 18);
+   border-radius: 30px;
+   cursor: pointer;
+}
+
+.nobg:hover {
+   color: white;
+   font-size: 17px;
+   transition: all ease-in-out;
+}
+
+.wt_bg:hover {
+   font-size: 17px;
+   transition: all ease-in-out;
+}
+
+.wt_bg {
+   font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+   font-size: 16px;
+   font-weight: 700;
+   color: black;
+   background-color: white;
+   border: 15px solid white;
+   border-radius: 30px;
+   padding: 0px 20px 0px 20px;
+   cursor: pointer;
+}
+
+.header ul {
+   display: flex;
+   max-width: 66vw;
+   margin: auto;
+   align-items: center;
+   justify-content: space-between;
+   height: 60px;
+   list-style: none;
+   color: white;
+}
+
+a {
+   text-decoration: none;
+}
+
+.a_1 {
+   font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+   font-weight: 700;
+   font-size: 24px;
+   font-style: normal;
+   color: white;
+}
+
+.a_2 {
+   font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+   font-size: 14px;
+   font-weight: 700;
+   font-style: normal;
+   color: #b3b3b3;
+}
+
+.a_1:hover {
+   text-decoration: underline;
+   color: white;
+}
+
+.a_2:hover {
+   text-decoration: underline;
+   color: #b3b3b3;
+}
+
+.library_item {
+   display: flex;
+   padding: 10px;
+   gap: 8px;
+   width: 60%;
+   cursor: pointer;
+}
+
+.library_heading {
+   color: #b3b3b3;
+   font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+   font-size: 16px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.library_content {
+   display: flex;
+   padding: 10px;
+   gap: 8px;
+   max-width: 434px;
+   margin: auto;
+   justify-content: space-between;
+}
+
+.svg4 {
+   width: 23px;
+}
+
+.library_heading:hover {
+   color: white;
+   transition: all 0.2s ease-in-out;
+}
+
+.svg4:hover {
+   cursor: pointer;
+}
+
+.library {
+   background-color: rgb(18, 18, 18);
+   height: 40%;
+   width: 90%;
+   padding: 0px 0px 0px 10px;
+}
+
+.library_item1 {
+   background-color: #4e4d4d94;
+   border: 1px solid #4e4d4d94;
+   border-radius: 10px;
+   height: 110px;
+   width: 390px;
+   padding: 5px 0px 20px 0px;
+   margin-bottom: 30px;
+   margin-top: 10px;
+}
+
+.library_item2 {
+   background-color: #4e4d4d94;
+   border: 1px solid #4e4d4d94;
+   border-radius: 10px;
+   height: 110px;
+   width: 390px;
+   padding: 5px 0px 20px 0px;
+}
+
+::-webkit-scrollbar {
+   width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: #555;
+   border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+   background-color: rgb(18, 18, 18);
+   border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+   background-color: #888;
+}
+
+.li_it1_con1 {
+   color: white;
+   font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+   font-style: normal;
+   font-size: 16px;
+   font-weight: 700;
+   padding: 13px 0px 0px 15px;
+
+}
+
+.li_para {
+   color: white;
+   padding-top: 9px;
+   font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+   font-size: 14px;
+   font-weight: 700;
+
+}
+
+.li_it1_con2 {
+   color: black;
+   background-color: white;
+   font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+   font-style: normal;
+   font-size: 14px;
+   font-weight: 700;
+   padding: 0px 10px 0px 15px;
+   width: 96px;
+   height: 34px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 22px 0px 0px 16px;
+   border-radius: 30px;
+}
+
+
+
+.li_it2_con1 {
+   color: white;
+   font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+   font-style: normal;
+   font-size: 16px;
+   font-weight: 700;
+   padding: 13px 0px 0px 15px;
+
+}
+
+.li_para2 {
+   color: white;
+   padding-top: 9px;
+   font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+   font-size: 14px;
+   font-weight: 700;
+
+}
+
+.li_it2_con2 {
+   color: black;
+   background-color: white;
+   font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+   font-style: normal;
+   font-size: 14px;
+   font-weight: 700;
+   padding: 0px 10px 0px 15px;
+   width: 119px;
+   height: 34px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 22px 0px 0px 16px;
+   border-radius: 30px;
+}
+
+.li_it2_con2:hover {
+   width: 130px;
+   height: 34px;
+   font-size: 15px;
+   cursor: pointer;
+}
+
+.li_it1_con2:hover {
+   font-size: 16px;
+   transition: all ease-in-out;
+   cursor: pointer;
+   width: 111px;
+   height: 34px;
+}
+
+.list ul {
+   width: 406px;
+   list-style: none;
+   display: flex;
+   flex-wrap: wrap;
+   padding: 73px 0px 0px 0px;
+   margin: 0px 0px 16px 20px;
+   gap: 26px;
+
+}
+
+.list ul li {
+   color: #a7a7a7;
+   font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+   font-size: 11px;
+   font-weight: 400;
+   font-style: normal;
+   cursor: pointer;
+}
+
+.cookie a {
+   text-decoration: none;
+   color: #b3b3b3;
+   font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+   font-size: 12px;
+   font-weight: 400;
+   font-style: normal;
+   padding: 0px 0px 0px 0px;
+   margin: 0px 0px 0px 20px;
+}
+
+.cookie a:hover {
+   border-bottom: 2px solid #a7a7a7;
+   transition: all ease-in;
+}
+
+.language button {
+   font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+   font-size: 14px;
+   font-weight: 700;
+   font-style: normal;
+   color: white;
+   background-color: rgb(18, 18, 18);
+   border: 2px solid gray;
+   border-radius: 25px;
+   width: 103px;
+   height: 35px;
+   margin: 36px 0px 0px 24px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 4px;
+}
+
+.language button:hover {
+   font-size: 15px;
+   transition: all ease-out;
+   border: 2px solid white;
+   cursor: pointer;
+}
+
+.songs {
+   background-color: transparent;
+   height: 285px;
+   max-width: 1034px;
+   margin: auto;
+   display: flex;
+   justify-content: start;
+   align-items: start;
+   margin-top: 10px;
+   justify-content: space-between;
+}
+
+/* .songs ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 0px 0px 0px 0px;
+} */
+
+.songs ul .s_list {
+   background-color: #4e4d4d1c;
+   height: 256px;
+   width: 191px;
+   border-radius: 10px;
+}
+
+.songs ul .s_list:hover {
+   background-color: #4e4d4d;
+   transition: all 0.5s cubic-bezier(0.23, -0.27, 0.58, 1);
+   cursor: pointer;
+}
+
+.s_img {
+   height: 58%;
+   width: 81%;
+   border-radius: 10px;
+   margin: 13px 0px 0px 18px;
+}
+
+h2 {
+   font-size: 16px;
+   margin: 11px 0px 0px 18px;
+   color: rgb(255, 255, 255);
+   font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+   font-weight: 700;
+   font-style: normal;
+   line-height: normal;
+}
+
+p {
+   font-size: 15px;
+   margin: 10px 0px 0px 18px;
+   color: rgb(179, 179, 179);
+   font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+   font-weight: 400;
+   font-style: normal;
+   line-height: normal;
+}
+
+h3 {
+   color: rgb(255, 255, 255);
+   font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+   font-size: 16px;
+   font-weight: 700;
+   font-style: normal;
+   line-height: normal;
+   margin: 0px 0px 15px 0px;
+}
+
+.information {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+   max-width: 908px;
+   margin: 90px 0px 0px 18px;
+
+}
+
+.information ul {
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+   /* margin-bottom: 40px; */
+}
+
+.information a {
+   text-decoration: none;
+   color: rgb(167, 167, 167);
+   font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+   font-size: 16px;
+   font-weight: 400;
+   font-style: normal;
+   line-height: normal;
+}
+
+.information a:hover {
+   color: white;
+   text-decoration: underline;
+}
+
+.social_sites {
+   display: flex;
+   margin: 0px -349px 100px 151px;
+   gap: 18px;
+   height: 38px;
+   width: 20px;
+}
+
+.social_sites img:hover {
+   cursor: pointer;
+}
+
+.seperation {
+   max-width: 1013px;
+   margin: auto;
+   border: 0.01px solid #e6e0e080;
+   margin-top: 43px;
+}
+
+.ending {
+   color: rgb(167, 167, 167);
+   font-family: CircularSp, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, "Helvetica Neue", helvetica, arial, "Hiragino Kaku Gothic ProN", Meiryo, "MS Gothic";
+   font-size: 14px;
+   font-weight: 400;
+   font-style: normal;
+   line-height: normal;
+   height: 94px;
+   width: 129px;
+   margin: 42px 0px 0px 19px;
+}
